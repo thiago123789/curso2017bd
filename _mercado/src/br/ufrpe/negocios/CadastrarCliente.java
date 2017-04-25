@@ -33,8 +33,6 @@ public class CadastrarCliente {
 	
 	public void cadastraPessoa(Cliente p){
 		try {
-			System.out.println("tipo_pessoa:"+p);
-			
 			pessoa.inserir(p);
 			cliente.inserir(p);
 			conexao.getConexao().commit();

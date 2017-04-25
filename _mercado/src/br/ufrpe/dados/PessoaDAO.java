@@ -37,7 +37,6 @@ public class PessoaDAO implements IPessoaDAO{
 		pm.setInt(4, p.isSexo()?1:2);
 		pm.setInt(5, p.getIdade());
 		pm.setDate(6, null);
-		System.out.println("tipo_pessoa:"+p.getTipo_pessoa());
 		pm.setInt(7, p.getTipo_pessoa());
 		pm.execute();
 	}

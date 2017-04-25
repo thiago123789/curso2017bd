@@ -21,6 +21,17 @@ public class Cliente extends Pessoa{
 	public void setCliente(boolean cliente) {
 		this.cliente = cliente;
 	}
+
+	@Override
+	public String toString() {
+		return "Cliente [cliente=" + cliente + ", getCpf()=" + getCpf() + ", getNome()=" + getNome() + ", getSenha()="
+				+ getSenha() + ", isSexo()=" + isSexo() + ", getIdade()=" + getIdade() + ", getData_nascimento()="
+				+ getData_nascimento() + ", getTipo_pessoa()=" + getTipo_pessoa() + ", getTelefones()=" + getTelefones()
+				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
+		
+	
 	
 	
 	
