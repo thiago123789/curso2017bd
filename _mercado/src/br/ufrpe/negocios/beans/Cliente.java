@@ -12,6 +12,8 @@ public class Cliente extends Pessoa{
 		this.setCliente(isCliente);
 	}
 
+	public Cliente( ) {}
+	
 	public boolean isCliente() {
 		return cliente;
 	}

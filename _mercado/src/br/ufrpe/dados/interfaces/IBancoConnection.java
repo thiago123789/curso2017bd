@@ -1,4 +1,4 @@
-package br.ufrpe.dados.intefaces;
+package br.ufrpe.dados.interfaces;
 
 public interface IBancoConnection {
 

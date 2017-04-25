@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import br.ufrpe.dados.intefaces.IBancoConnection;
+import br.ufrpe.dados.interfaces.IBancoConnection;
 
 public class ConnectionBanco implements IBancoConnection {
 	private static ConnectionBanco instance;
@@ -49,8 +49,8 @@ public class ConnectionBanco implements IBancoConnection {
 
 	private static Connection setConexao() throws SQLException {
 		Connection retorno = null;
-		retorno = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/deinfo?autoReconnect=true&useSSL=false",
-				"root", "senha");
+		retorno = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/supermercado?autoReconnect=true&useSSL=false",
+				"curso", "senha@2017");
 		retorno.setAutoCommit(false);
 		System.out.println("Logou com Administrador");
 		return retorno;
