@@ -7,6 +7,8 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import br.ufrpe.dados.intefaces.IBancoConnection;
+
 public class ConnectionBanco implements IBancoConnection {
 	private static ConnectionBanco instance;
 	private Connection conexao;

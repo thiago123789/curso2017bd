@@ -3,6 +3,7 @@ package br.ufrpe.dados;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
+import br.ufrpe.dados.intefaces.IPessoaDAO;
 import br.ufrpe.negocios.beans.Pessoa;
 
 public class PessoaDAO implements IPessoaDAO{

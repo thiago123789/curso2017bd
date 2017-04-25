@@ -1,4 +1,4 @@
-package br.ufrpe.dados;
+package br.ufrpe.dados.intefaces;
 
 import java.sql.SQLException;
 
